@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-10-01" view-index="0" gantt-divider-location="550" resource-divider-location="300" version="2.8.4" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-01-01" view-index="0" gantt-divider-location="550" resource-divider-location="300" version="2.8.4" locale="en_US">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
         <field id="tpd3" name="Name" width="250" order="0"/>
@@ -107,39 +107,39 @@
                 <task id="150" name="Newsletter" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="151" name="Front Back Office" meeting="false" start="2017-03-06" duration="1" complete="0" expand="false">
-            <task id="155" name="Authentification" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true">
-                <task id="156" name="Admin" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+        <task id="151" name="Front Back Office" meeting="false" start="2017-03-06" duration="445" complete="0" expand="false">
+            <task id="155" name="Authentification" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true">
+                <task id="156" name="Admin" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true"/>
             </task>
-            <task id="172" name="Profil Utilisateur" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true">
-                <task id="173" name="Création" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="174" name="Gestion" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="175" name="Détails" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="176" name="Projets" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="177" name="Tags" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="178" name="Skills" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="179" name="Supprimer" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+            <task id="172" name="Profil Utilisateur" meeting="false" start="2017-05-08" duration="135" complete="0" expand="true">
+                <task id="173" name="Création" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true"/>
+                <task id="174" name="Gestion" meeting="false" start="2017-06-08" duration="22" complete="0" expand="true"/>
+                <task id="175" name="Détails" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true"/>
+                <task id="176" name="Projets" meeting="false" start="2017-08-10" duration="44" complete="0" expand="true"/>
+                <task id="177" name="Tags" meeting="false" start="2017-08-10" duration="44" complete="0" expand="true"/>
+                <task id="178" name="Skills" meeting="false" start="2017-08-10" duration="44" complete="0" expand="true"/>
+                <task id="179" name="Supprimer" meeting="false" start="2017-10-10" duration="24" complete="0" expand="true"/>
             </task>
-            <task id="206" name="Projet" meeting="false" start="2017-03-06" duration="1" complete="0" expand="false">
-                <task id="207" name="Création" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="208" name="Edition" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="209" name="Gestion" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="210" name="Tâches" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="211" name="Scrum Board" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="212" name="Timeline" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="213" name="Membres" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="214" name="Financement" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="215" name="Plafond" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="216" name="Paliers" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="217" name="Validation" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="218" name="Invalidation" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+            <task id="206" name="Projet" meeting="false" start="2017-07-10" duration="355" complete="0" expand="true">
+                <task id="207" name="Création" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true"/>
+                <task id="208" name="Edition" meeting="false" start="2017-08-10" duration="22" complete="0" expand="true"/>
+                <task id="209" name="Gestion" color="#8cb6ce" meeting="false" start="2017-09-11" duration="22" complete="0" expand="true"/>
+                <task id="210" name="Tâches" meeting="false" start="2018-02-12" duration="21" complete="0" expand="true"/>
+                <task id="211" name="Scrum Board" meeting="false" start="2018-03-12" duration="24" complete="0" expand="true"/>
+                <task id="212" name="Timeline" meeting="false" start="2018-04-12" duration="22" complete="0" expand="true"/>
+                <task id="213" name="Membres" meeting="false" start="2018-05-14" duration="24" complete="0" expand="true"/>
+                <task id="214" name="Financement" meeting="false" start="2018-06-14" duration="22" complete="0" expand="true"/>
+                <task id="215" name="Plafond" meeting="false" start="2018-07-16" duration="24" complete="0" expand="true"/>
+                <task id="216" name="Paliers" meeting="false" start="2018-08-17" duration="22" complete="0" expand="true"/>
+                <task id="217" name="Validation" meeting="false" start="2018-09-17" duration="23" complete="0" expand="true"/>
+                <task id="218" name="Invalidation" meeting="false" start="2018-10-17" duration="23" complete="0" expand="true"/>
             </task>
-            <task id="224" name="Recherche" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true">
-                <task id="225" name="Profils" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
-                <task id="226" name="Projets" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+            <task id="224" name="Recherche" meeting="false" start="2017-12-11" duration="45" complete="0" expand="true">
+                <task id="225" name="Profils" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
+                <task id="226" name="Projets" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="227" name="Mobile" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true">
+        <task id="227" name="Mobile" meeting="false" start="2017-03-06" duration="477" complete="0" expand="false">
             <task id="274" name="Authentification" color="#000000" meeting="false" start="2017-03-06" duration="69" complete="0" expand="true">
                 <task id="275" name="Social authentification" color="#8cb6ce" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true"/>
                 <task id="276" name="Classique" color="#8cb6ce" meeting="false" start="2017-04-06" duration="22" complete="0" expand="true"/>
