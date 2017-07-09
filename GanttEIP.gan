@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-03-01" view-index="0" gantt-divider-location="547" resource-divider-location="300" version="2.8.5" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-07-01" view-index="0" gantt-divider-location="547" resource-divider-location="300" version="2.8.5" locale="fr">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
         <field id="tpd3" name="Nom" width="240" order="0"/>
         <field id="tpd4" name="Date de début" width="144" order="1"/>
         <field id="tpd5" name="Date de fin" width="144" order="2"/>
-        <option id="color.recent"><![CDATA[#ff0000 #000000 #6699ff #66ccff #0099ff]]></option>
+        <option id="taskLabelLeft" value="resources"/>
+        <option id="color.recent"><![CDATA[#ff0033 #ff33ff #ff9933 #00cc33 #00ccff #ff0000 #000000 #6699ff #66ccff #0099ff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -34,57 +35,59 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="7" name="Front" color="#000000" meeting="false" start="2017-03-06" duration="325" complete="0" expand="false">
+        <task id="7" name="Front" color="#000000" meeting="false" start="2017-03-06" duration="426" complete="0" expand="true">
             <task id="23" name="Authentification" color="#000000" meeting="false" start="2017-03-06" duration="65" complete="0" expand="true">
-                <task id="25" name="Classique" color="#8cb6ce" meeting="false" start="2017-03-06" duration="21" complete="0" expand="true">
+                <task id="25" name="Classique" color="#00ccff" meeting="false" start="2017-03-06" duration="21" complete="0" expand="true">
                     <depend id="24" type="2" difference="0" hardness="Strong"/>
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="24" name="Social authentification" color="#8cb6ce" meeting="false" start="2017-04-04" duration="24" complete="0" expand="true">
+                <task id="24" name="Social authentification" color="#00ccff" meeting="false" start="2017-04-04" duration="24" complete="0" expand="true">
                     <depend id="26" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="26" name="Professionnelle authentification" color="#8cb6ce" meeting="false" start="2017-05-08" duration="20" complete="0" expand="true">
                     <depend id="31" type="2" difference="0" hardness="Strong"/>
                 </task>
+                <task id="26" name="Professionnelle authentification" color="#00ccff" meeting="false" start="2017-05-08" duration="20" complete="0" expand="true"/>
             </task>
-            <task id="30" name="Profil utilisateur" color="#000000" meeting="false" start="2017-06-05" duration="35" complete="0" expand="true">
-                <task id="31" name="Création" meeting="false" start="2017-06-05" duration="20" complete="0" expand="true">
+            <task id="30" name="Profil utilisateur" color="#000000" meeting="false" start="2017-05-08" duration="55" complete="0" expand="true">
+                <task id="31" name="Création" color="#00ccff" meeting="false" start="2017-05-08" duration="20" complete="0" expand="true">
                     <depend id="33" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="33" name="Gestion" meeting="false" start="2017-07-03" duration="15" complete="0" expand="true"/>
+                <task id="33" name="Gestion" color="#00ccff" meeting="false" start="2017-06-05" duration="35" complete="0" expand="true"/>
             </task>
-            <task id="35" name="Projet" meeting="false" start="2017-07-24" duration="180" complete="0" expand="true">
-                <task id="37" name="Création" color="#8cb6ce" meeting="false" start="2017-07-24" duration="50" complete="0" expand="true">
+            <task id="35" name="Projet" meeting="false" start="2017-07-24" duration="215" complete="0" expand="true">
+                <task id="37" name="Création" color="#00ccff" meeting="false" start="2017-07-24" duration="50" complete="0" thirdDate="2017-07-24" thirdDate-constraint="1" expand="true">
                     <depend id="39" type="2" difference="0" hardness="Strong"/>
                     <depend id="43" type="2" difference="0" hardness="Strong"/>
                     <depend id="45" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="39" name="Gestion" meeting="false" start="2017-10-02" duration="85" complete="0" expand="true">
+                <task id="39" name="Gestion" color="#00ccff" meeting="false" start="2017-10-02" duration="99" complete="0" expand="true">
                     <depend id="41" type="2" difference="0" hardness="Strong"/>
                     <depend id="63" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="41" name="Financement" color="#8cb6ce" meeting="false" start="2018-01-29" duration="45" complete="0" expand="true"/>
-                <task id="43" name="Forum/Chat" color="#8cb6ce" meeting="false" start="2017-10-02" duration="80" complete="0" expand="true"/>
-                <task id="45" name="Report" color="#8cb6ce" meeting="false" start="2017-10-02" duration="20" complete="0" expand="true"/>
+                <task id="41" name="Financement" color="#00ccff" meeting="false" start="2018-04-02" duration="35" complete="0" thirdDate="2018-04-02" thirdDate-constraint="1" priority="0" expand="true"/>
+                <task id="45" name="Report" color="#00ccff" meeting="false" start="2018-03-07" duration="18" complete="0" thirdDate="2018-03-07" thirdDate-constraint="1" expand="true"/>
+                <task id="43" name="Forum/Chat" color="#00ccff" meeting="false" start="2017-10-03" duration="80" complete="0" thirdDate="2017-10-03" thirdDate-constraint="1" expand="true">
+                    <depend id="312" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="312" name="Todo List" color="#00ccff" meeting="false" start="2018-01-23" duration="31" complete="0" expand="true"/>
             </task>
-            <task id="47" name="Recherche" meeting="false" start="2017-11-01" duration="49" complete="0" expand="true">
-                <task id="49" name="Profils" color="#8cb6ce" meeting="false" start="2017-11-01" duration="28" complete="0" expand="true"/>
-                <task id="51" name="Projets" meeting="false" start="2017-12-11" duration="21" complete="0" expand="true"/>
+            <task id="47" name="Recherche" meeting="false" start="2018-05-22" duration="48" complete="0" expand="true">
+                <task id="49" name="Profils" color="#00ccff" meeting="false" start="2018-05-22" duration="28" complete="0" expand="true"/>
+                <task id="51" name="Projets" color="#00ccff" meeting="false" start="2018-06-28" duration="21" complete="0" expand="true"/>
             </task>
-            <task id="53" name="Entreprise" meeting="false" start="2018-01-08" duration="65" complete="0" expand="true">
-                <task id="55" name="Recherche avancée" color="#8cb6ce" meeting="false" start="2018-01-08" duration="4" complete="0" expand="true"/>
-                <task id="57" name="Profils" meeting="false" start="2018-01-11" duration="34" complete="0" expand="true"/>
-                <task id="59" name="Projets" color="#8cb6ce" meeting="false" start="2018-03-01" duration="27" complete="0" expand="true"/>
+            <task id="53" name="Recherche Entreprise" meeting="false" start="2018-07-30" duration="61" complete="0" expand="true">
+                <task id="57" name="Profils" color="#00ccff" meeting="false" start="2018-07-30" duration="34" complete="0" expand="true"/>
+                <task id="59" name="Projets" color="#00ccff" meeting="false" start="2018-09-14" duration="27" complete="0" expand="true"/>
             </task>
-            <task id="61" name="Accueil" meeting="false" start="2018-01-29" duration="90" complete="0" expand="true">
-                <task id="63" name="Dashboard" color="#8cb6ce" meeting="false" start="2018-01-29" duration="50" complete="0" expand="true">
+            <task id="61" name="Accueil" meeting="false" start="2018-02-16" duration="120" complete="0" expand="true">
+                <task id="63" name="Dashboard" color="#00ccff" meeting="false" start="2018-02-16" duration="80" complete="0" expand="true">
                     <depend id="65" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="65" name="Fil d'actualitée" color="#8cb6ce" meeting="false" start="2018-04-09" duration="40" complete="0" expand="true"/>
+                <task id="65" name="Fil d'actualitée" color="#00ccff" meeting="false" start="2018-06-08" duration="40" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="66" name="back" color="#000000" meeting="false" start="2017-04-13" duration="448" complete="0" expand="false">
+        <task id="66" name="back" color="#000000" meeting="false" start="2017-04-13" duration="448" complete="0" expand="true">
             <task id="72" name="Authentification" meeting="false" start="2017-04-13" duration="22" complete="0" expand="true">
-                <task id="73" name="inscription" color="#8cb6ce" meeting="false" start="2017-04-13" duration="22" complete="0" expand="true">
+                <task id="73" name="inscription" color="#ff0033" meeting="false" start="2017-04-13" duration="22" complete="0" expand="true">
                     <depend id="84" type="2" difference="0" hardness="Strong"/>
                     <depend id="97" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -134,166 +137,260 @@
                 <task id="150" name="Newsletter" color="#8cb6ce" meeting="false" start="2018-05-01" duration="23" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="151" name="Front Back Office" color="#000000" meeting="false" start="2017-03-06" duration="314" complete="0" expand="false">
+        <task id="151" name="Front Back Office" color="#000000" meeting="false" start="2017-03-06" duration="314" complete="0" expand="true">
             <task id="155" name="Authentification" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true">
-                <task id="156" name="Admin" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true"/>
+                <task id="156" name="Admin" color="#ff33ff" meeting="false" start="2017-03-06" duration="24" complete="0" expand="true"/>
             </task>
             <task id="172" name="Profil Utilisateur" meeting="false" start="2017-05-08" duration="136" complete="0" expand="true">
-                <task id="173" name="Création" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true">
+                <task id="173" name="Création" color="#ff33ff" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true">
                     <depend id="174" type="2" difference="0" hardness="Strong"/>
                     <depend id="175" type="2" difference="0" hardness="Strong"/>
                     <depend id="179" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="174" name="Gestion" meeting="false" start="2017-06-09" duration="22" complete="0" expand="true"/>
-                <task id="175" name="Détails" meeting="false" start="2017-06-09" duration="24" complete="0" expand="true"/>
-                <task id="176" name="Projets" meeting="false" start="2017-08-10" duration="44" complete="0" expand="true"/>
-                <task id="177" name="Tags" color="#8cb6ce" meeting="false" start="2017-07-13" duration="44" complete="0" expand="true">
+                <task id="174" name="Gestion" color="#ff33ff" meeting="false" start="2017-06-09" duration="22" complete="0" expand="true"/>
+                <task id="175" name="Détails" color="#ff33ff" meeting="false" start="2017-06-09" duration="24" complete="0" expand="true"/>
+                <task id="176" name="Projets" color="#ff33ff" meeting="false" start="2017-08-10" duration="44" complete="0" expand="true"/>
+                <task id="177" name="Tags" color="#ff33ff" meeting="false" start="2017-07-13" duration="44" complete="0" expand="true">
                     <depend id="178" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="178" name="Skills" meeting="false" start="2017-09-13" duration="44" complete="0" expand="true"/>
-                <task id="179" name="Supprimer" color="#8cb6ce" meeting="false" start="2017-06-09" duration="7" complete="0" expand="true"/>
+                <task id="178" name="Skills" color="#ff33ff" meeting="false" start="2017-09-13" duration="44" complete="0" expand="true"/>
+                <task id="179" name="Supprimer" color="#ff33ff" meeting="false" start="2017-06-09" duration="7" complete="0" expand="true"/>
             </task>
             <task id="206" name="Projet" meeting="false" start="2017-07-10" duration="224" complete="0" expand="true">
-                <task id="207" name="Création" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true">
+                <task id="207" name="Création" color="#ff33ff" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true">
                     <depend id="208" type="2" difference="0" hardness="Strong"/>
                     <depend id="209" type="2" difference="0" hardness="Strong"/>
                     <depend id="218" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="208" name="Edition" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true"/>
-                <task id="209" name="Gestion" color="#8cb6ce" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true">
+                <task id="208" name="Edition" color="#ff33ff" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true"/>
+                <task id="209" name="Gestion" color="#ff33ff" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true">
                     <depend id="210" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="210" name="Tâches" meeting="false" start="2017-09-12" duration="21" complete="0" expand="true">
+                <task id="210" name="Tâches" color="#ff33ff" meeting="false" start="2017-09-12" duration="21" complete="0" expand="true">
                     <depend id="211" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="211" name="Scrum Board" meeting="false" start="2017-10-11" duration="24" complete="0" expand="true"/>
-                <task id="212" name="Timeline" color="#8cb6ce" meeting="false" start="2017-11-16" duration="22" complete="0" expand="true"/>
-                <task id="213" name="Membres" meeting="false" start="2017-12-12" duration="24" complete="0" expand="true"/>
-                <task id="214" name="Financement" meeting="false" start="2018-01-15" duration="22" complete="0" expand="true"/>
-                <task id="215" name="Plafond" meeting="false" start="2018-02-16" duration="24" complete="0" expand="true"/>
-                <task id="216" name="Paliers" meeting="false" start="2018-03-19" duration="22" complete="0" expand="true"/>
-                <task id="217" name="Validation" meeting="false" start="2018-04-17" duration="23" complete="0" expand="true"/>
-                <task id="218" name="Invalidation" meeting="false" start="2017-08-11" duration="23" complete="0" expand="true"/>
+                <task id="211" name="Scrum Board" color="#ff33ff" meeting="false" start="2017-10-11" duration="24" complete="0" expand="true"/>
+                <task id="212" name="Timeline" color="#ff33ff" meeting="false" start="2017-11-16" duration="22" complete="0" expand="true"/>
+                <task id="213" name="Membres" color="#ff33ff" meeting="false" start="2017-12-12" duration="24" complete="0" expand="true"/>
+                <task id="214" name="Financement" color="#ff33ff" meeting="false" start="2018-01-15" duration="22" complete="0" expand="true"/>
+                <task id="215" name="Plafond" color="#ff33ff" meeting="false" start="2018-02-16" duration="24" complete="0" expand="true"/>
+                <task id="216" name="Paliers" color="#ff33ff" meeting="false" start="2018-03-19" duration="22" complete="0" expand="true"/>
+                <task id="217" name="Validation" color="#ff33ff" meeting="false" start="2018-04-17" duration="23" complete="0" expand="true"/>
+                <task id="218" name="Invalidation" color="#ff33ff" meeting="false" start="2017-08-11" duration="23" complete="0" expand="true"/>
             </task>
             <task id="224" name="Recherche" meeting="false" start="2017-12-11" duration="45" complete="0" expand="true">
-                <task id="225" name="Profils" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
-                <task id="226" name="Projets" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
+                <task id="225" name="Profils" color="#ff33ff" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
+                <task id="226" name="Projets" color="#ff33ff" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="227" name="Mobile React" color="#000000" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true">
-            <task id="274" name="Authentification" color="#000000" meeting="false" start="2017-03-06" duration="69" complete="0" expand="true">
-                <task id="276" name="Classique" color="#8cb6ce" meeting="false" start="2017-03-06" duration="22" complete="0" expand="true"/>
-                <task id="275" name="Social authentification" color="#8cb6ce" meeting="false" start="2017-04-06" duration="24" complete="0" expand="true"/>
-                <task id="277" name="Professionnelle authentification" color="#8cb6ce" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true"/>
+        <task id="313" name="Mobile UWP" color="#000000" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <task id="314" name="Authentification" color="#000000" meeting="false" start="2017-03-06" duration="69" complete="0" expand="true">
+                <task id="316" name="Classique" color="#ff9933" meeting="false" start="2017-03-06" duration="22" complete="0" expand="true"/>
+                <task id="318" name="Social authentification" color="#ff9933" meeting="false" start="2017-04-06" duration="24" complete="0" expand="true"/>
+                <task id="320" name="Professionnelle authentification" color="#ff9933" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true"/>
             </task>
-            <task id="278" name="Profil utilisateur" color="#000000" meeting="false" start="2017-05-08" duration="46" complete="0" expand="true">
-                <task id="279" name="Création" color="#8cb6ce" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true">
-                    <depend id="280" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="280" name="Gestion" color="#8cb6ce" meeting="false" start="2017-06-09" duration="22" complete="0" expand="true"/>
-            </task>
-            <task id="281" name="Projet" meeting="false" start="2017-07-10" duration="343" complete="0" expand="true">
-                <task id="282" name="Création" color="#8cb6ce" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true">
-                    <depend id="283" type="2" difference="0" hardness="Strong"/>
-                    <depend id="286" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="283" name="Gestion" color="#8cb6ce" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true">
-                    <depend id="285" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="284" name="Financement" color="#8cb6ce" meeting="false" start="2018-08-31" duration="44" complete="0" expand="true"/>
-                <task id="285" name="Forum/Chat" color="#8cb6ce" meeting="false" start="2017-09-12" duration="45" complete="0" expand="true"/>
-                <task id="286" name="Report" color="#8cb6ce" meeting="false" start="2017-08-11" duration="21" complete="0" expand="true"/>
-            </task>
-            <task id="287" name="Recherche" meeting="false" start="2017-12-11" duration="45" complete="0" expand="true">
-                <task id="288" name="Profils" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
-                <task id="289" name="Projets" color="#8cb6ce" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
-            </task>
-            <task id="290" name="Entreprise" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true">
-                <task id="291" name="Recheche avancée" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true"/>
-                <task id="292" name="Profils" meeting="false" start="2018-02-12" duration="21" complete="0" expand="true"/>
-                <task id="293" name="Projets" meeting="false" start="2018-03-12" duration="24" complete="0" expand="true"/>
-            </task>
-            <task id="294" name="Accueil" meeting="false" start="2018-04-12" duration="87" complete="0" expand="true">
-                <task id="295" name="Dashboard" meeting="false" start="2018-04-12" duration="44" complete="0" expand="true"/>
-                <task id="296" name="Fil d'actualitée" meeting="false" start="2018-06-12" duration="44" complete="0" expand="true"/>
-            </task>
-        </task>
-        <task id="312" name="Mobile UWP" color="#000000" meeting="false" start="2017-03-06" duration="477" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
-            <task id="314" name="Copie_Authentification" color="#000000" meeting="false" start="2017-03-06" duration="69" complete="0" expand="true">
-                <task id="316" name="Copie_Classique" color="#8cb6ce" meeting="false" start="2017-03-06" duration="22" complete="0" expand="true"/>
-                <task id="318" name="Copie_Social authentification" color="#8cb6ce" meeting="false" start="2017-04-06" duration="24" complete="0" expand="true"/>
-                <task id="320" name="Copie_Professionnelle authentification" color="#8cb6ce" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true"/>
-            </task>
-            <task id="322" name="Copie_Profil utilisateur" color="#000000" meeting="false" start="2017-05-08" duration="46" complete="0" expand="true">
-                <task id="324" name="Copie_Création" color="#8cb6ce" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true">
+            <task id="322" name="Profil utilisateur" color="#000000" meeting="false" start="2017-05-08" duration="46" complete="0" expand="true">
+                <task id="324" name="Création" color="#ff9933" meeting="false" start="2017-05-08" duration="24" complete="0" expand="true">
                     <depend id="326" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="326" name="Copie_Gestion" color="#8cb6ce" meeting="false" start="2017-06-09" duration="22" complete="0" expand="true"/>
+                <task id="326" name="Gestion" color="#ff9933" meeting="false" start="2017-06-09" duration="22" complete="0" expand="true"/>
             </task>
-            <task id="328" name="Copie_Projet" meeting="false" start="2017-07-10" duration="343" complete="0" expand="true">
-                <task id="330" name="Copie_Création" color="#8cb6ce" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true">
+            <task id="328" name="Projet" meeting="false" start="2017-07-10" duration="343" complete="0" expand="true">
+                <task id="330" name="Création" color="#ff9933" meeting="false" start="2017-07-10" duration="24" complete="0" expand="true">
                     <depend id="332" type="2" difference="0" hardness="Strong"/>
                     <depend id="338" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="332" name="Copie_Gestion" color="#8cb6ce" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true">
+                <task id="332" name="Gestion" color="#ff9933" meeting="false" start="2017-08-11" duration="22" complete="0" expand="true">
                     <depend id="336" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="334" name="Copie_Financement" color="#8cb6ce" meeting="false" start="2018-08-31" duration="44" complete="0" expand="true"/>
-                <task id="336" name="Copie_Forum/Chat" color="#8cb6ce" meeting="false" start="2017-09-12" duration="45" complete="0" expand="true"/>
-                <task id="338" name="Copie_Report" color="#8cb6ce" meeting="false" start="2017-08-11" duration="21" complete="0" expand="true"/>
+                <task id="334" name="Financement" color="#ff9933" meeting="false" start="2018-08-31" duration="44" complete="0" expand="true"/>
+                <task id="336" name="Forum/Chat" color="#ff9933" meeting="false" start="2017-09-12" duration="45" complete="0" expand="true"/>
+                <task id="338" name="Report" color="#ff9933" meeting="false" start="2017-08-11" duration="21" complete="0" expand="true"/>
             </task>
-            <task id="340" name="Copie_Recherche" meeting="false" start="2017-12-11" duration="45" complete="0" expand="true">
-                <task id="342" name="Copie_Profils" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
-                <task id="344" name="Copie_Projets" color="#8cb6ce" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
+            <task id="340" name="Recherche" meeting="false" start="2017-12-11" duration="45" complete="0" expand="true">
+                <task id="342" name="Profils" color="#ff9933" meeting="false" start="2017-12-11" duration="23" complete="0" expand="true"/>
+                <task id="344" name="Projets" color="#ff9933" meeting="false" start="2018-01-10" duration="23" complete="0" expand="true"/>
             </task>
-            <task id="346" name="Copie_Entreprise" meeting="false" start="2018-02-12" duration="232" complete="0" expand="true">
-                <task id="348" name="Copie_Recheche avancée" color="#8cb6ce" meeting="false" start="2018-10-31" duration="45" complete="0" expand="true"/>
-                <task id="350" name="Copie_Profils" meeting="false" start="2018-02-12" duration="21" complete="0" expand="true"/>
-                <task id="352" name="Copie_Projets" meeting="false" start="2018-03-12" duration="24" complete="0" expand="true"/>
+            <task id="346" name="Entreprise" meeting="false" start="2018-02-12" duration="232" complete="0" expand="true">
+                <task id="348" name="Recheche avancée" color="#ff9933" meeting="false" start="2018-10-31" duration="45" complete="0" expand="true"/>
+                <task id="350" name="Profils" color="#ff9933" meeting="false" start="2018-02-12" duration="21" complete="0" expand="true"/>
+                <task id="352" name="Projets" color="#ff9933" meeting="false" start="2018-03-12" duration="24" complete="0" expand="true"/>
             </task>
-            <task id="354" name="Copie_Accueil" meeting="false" start="2018-04-12" duration="87" complete="0" expand="true">
-                <task id="356" name="Copie_Dashboard" meeting="false" start="2018-04-12" duration="44" complete="0" expand="true"/>
-                <task id="358" name="Copie_Fil d'actualitée" meeting="false" start="2018-06-12" duration="44" complete="0" expand="true"/>
+            <task id="354" name="Accueil" meeting="false" start="2018-04-12" duration="87" complete="0" expand="true">
+                <task id="356" name="Dashboard" color="#ff9933" meeting="false" start="2018-04-12" duration="44" complete="0" expand="true"/>
+                <task id="358" name="Fil d'actualitée" color="#ff9933" meeting="false" start="2018-06-12" duration="44" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="297" name="Versions Stables" color="#ff0000" meeting="false" start="2017-04-03" duration="370" complete="0" expand="false">
+        <task id="368" name="Mobile React" color="#000000" meeting="false" start="2017-03-06" duration="426" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <task id="370" name="Authentification" color="#000000" meeting="false" start="2017-03-06" duration="65" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="372" name="Classique" color="#00cc33" meeting="false" start="2017-03-06" duration="21" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="374" type="2" difference="0" hardness="Strong"/>
+                    <depend id="386" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="374" name="Social authentification" color="#00cc33" meeting="false" start="2017-04-04" duration="24" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="376" type="2" difference="0" hardness="Strong"/>
+                    <depend id="380" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="376" name="Professionnelle authentification" color="#00cc33" meeting="false" start="2017-05-08" duration="20" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="378" name="Profil utilisateur" color="#000000" meeting="false" start="2017-05-08" duration="55" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="380" name="Création" color="#00cc33" meeting="false" start="2017-05-08" duration="20" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="382" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="382" name="Gestion" color="#00cc33" meeting="false" start="2017-06-05" duration="35" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="384" name="Projet" meeting="false" start="2017-07-24" duration="215" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="386" name="Création" color="#00cc33" meeting="false" start="2017-07-24" duration="50" complete="0" thirdDate="2017-07-24" thirdDate-constraint="1" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="388" type="2" difference="0" hardness="Strong"/>
+                    <depend id="392" type="2" difference="0" hardness="Strong"/>
+                    <depend id="394" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="388" name="Gestion" color="#00cc33" meeting="false" start="2017-10-02" duration="99" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="390" type="2" difference="0" hardness="Strong"/>
+                    <depend id="412" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="390" name="Financement" color="#00cc33" meeting="false" start="2018-04-02" duration="35" complete="0" thirdDate="2018-04-02" thirdDate-constraint="1" priority="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="392" name="Report" color="#00cc33" meeting="false" start="2018-03-07" duration="18" complete="0" thirdDate="2018-03-07" thirdDate-constraint="1" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="394" name="Forum/Chat" color="#00cc33" meeting="false" start="2017-10-03" duration="80" complete="0" thirdDate="2017-10-03" thirdDate-constraint="1" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="396" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="396" name="Todo List" color="#00cc33" meeting="false" start="2018-01-23" duration="31" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="398" name="Recherche" meeting="false" start="2018-05-22" duration="48" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="400" name="Profils" color="#00cc33" meeting="false" start="2018-05-22" duration="28" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="402" name="Projets" color="#00cc33" meeting="false" start="2018-06-28" duration="21" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="404" name="Recherche Entreprise" meeting="false" start="2018-07-30" duration="61" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="406" name="Profils" color="#00cc33" meeting="false" start="2018-07-30" duration="34" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="408" name="Projets" color="#00cc33" meeting="false" start="2018-09-14" duration="27" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="410" name="Accueil" meeting="false" start="2018-02-16" duration="120" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="412" name="Dashboard" color="#00cc33" meeting="false" start="2018-02-16" duration="80" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="414" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="414" name="Fil d'actualitée" color="#00cc33" meeting="false" start="2018-06-08" duration="40" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+        </task>
+        <task id="297" name="Versions Stables" color="#ff0000" meeting="false" start="2017-04-03" duration="456" complete="0" expand="false">
             <task id="300" name="Forward" color="#8cb6ce" meeting="true" start="2017-04-03" duration="0" complete="0" expand="true"/>
             <task id="304" name="Alpha" color="#8cb6ce" meeting="true" start="2017-09-15" duration="0" complete="0" expand="true"/>
             <task id="306" name="Beta" color="#8cb6ce" meeting="true" start="2018-03-01" duration="0" complete="0" expand="true"/>
-            <task id="310" name="Finale" color="#8cb6ce" meeting="true" start="2018-09-03" duration="0" complete="0" expand="true"/>
+            <task id="310" name="Pre-Release" color="#8cb6ce" meeting="true" start="2018-09-03" duration="0" complete="0" expand="true"/>
+            <task id="359" name="Release" color="#8cb6ce" meeting="true" start="2019-01-01" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
-        <resource id="1" name="Clément" function="Default:0" contacts="" phone=""/>
-        <resource id="3" name="Léo" function="Default:0" contacts="" phone=""/>
-        <resource id="4" name="Florian" function="Default:0" contacts="" phone=""/>
-        <resource id="5" name="Cyril" function="Default:0" contacts="" phone=""/>
-        <resource id="6" name="Thomas" function="Default:0" contacts="" phone=""/>
-        <resource id="7" name="Maxime" function="Default:0" contacts="" phone=""/>
-        <resource id="8" name="Enzo" function="Default:0" contacts="" phone=""/>
-        <resource id="2" name="Jérémy" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Clément Bouqin" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Léo Lafon" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Florian Labreze" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Cyril Coiffard" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Thomas Debrabander" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Maxime Agor" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Enzo Resse" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Jérémy Metereau" function="Default:0" contacts="" phone=""/>
     </resources>
     <allocations>
         <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="297" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="227" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="297" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="312" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="396" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="368" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="372" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="374" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="380" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="382" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="386" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="390" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="392" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="394" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="400" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="402" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="406" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="408" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="66" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="66" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="297" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="151" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="227" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="312" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="151" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="313" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="316" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="318" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="320" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="324" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="326" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="330" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="332" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="336" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="338" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="334" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="342" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="344" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="348" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="350" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="352" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="356" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="358" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="151" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="227" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="156" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="173" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="175" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="178" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="179" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="208" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="209" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="210" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="211" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="212" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="213" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="215" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="216" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="218" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="217" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="225" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="226" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="312" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="368" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="372" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="374" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="376" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="382" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="386" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="388" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="406" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="408" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="412" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="414" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="312" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
