@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-10-01" view-index="0" gantt-divider-location="547" resource-divider-location="300" version="2.8.5" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-07-01" view-index="0" gantt-divider-location="547" resource-divider-location="300" version="2.8.5" locale="fr">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
         <field id="tpd3" name="Nom" width="240" order="0"/>
         <field id="tpd4" name="Date de début" width="144" order="1"/>
         <field id="tpd5" name="Date de fin" width="144" order="2"/>
         <option id="taskLabelLeft" value="resources"/>
-        <option id="color.recent"><![CDATA[#ffff00 #f4f4f4 #ff0033 #ff33ff #ff9933 #00cc33 #00ccff #ff0000 #000000 #6699ff]]></option>
+        <option id="taskLabelRight" value=""/>
+        <option id="color.recent"><![CDATA[#ff0000 #ffff00 #f4f4f4 #ff0033 #ff33ff #ff9933 #00cc33 #00ccff #000000 #6699ff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -269,12 +270,12 @@
                 <task id="414" name="Fil d'actualitée" color="#00cc33" meeting="false" start="2018-06-08" duration="40" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
             </task>
         </task>
-        <task id="297" name="Versions Stables" color="#ff0000" meeting="false" start="2017-04-03" duration="456" complete="0" expand="false">
-            <task id="300" name="Forward" color="#8cb6ce" meeting="true" start="2017-04-03" duration="0" complete="0" expand="true"/>
-            <task id="304" name="Alpha" color="#8cb6ce" meeting="true" start="2017-09-15" duration="0" complete="0" expand="true"/>
-            <task id="306" name="Beta" color="#8cb6ce" meeting="true" start="2018-03-01" duration="0" complete="0" expand="true"/>
-            <task id="310" name="Pre-Release" color="#8cb6ce" meeting="true" start="2018-09-03" duration="0" complete="0" expand="true"/>
-            <task id="359" name="Release" color="#8cb6ce" meeting="true" start="2019-01-01" duration="0" complete="0" expand="true"/>
+        <task id="297" name="Versions Stables" color="#ff0000" meeting="false" start="2017-04-03" duration="456" complete="0" expand="true">
+            <task id="300" name="Forward" color="#ff0000" meeting="true" start="2017-04-03" duration="0" complete="0" expand="true"/>
+            <task id="304" name="Alpha" color="#ff0000" meeting="true" start="2017-09-15" duration="0" complete="0" expand="true"/>
+            <task id="306" name="Beta" color="#ff0000" meeting="true" start="2018-03-01" duration="0" complete="0" expand="true"/>
+            <task id="310" name="Pre-Release" color="#ff0000" meeting="true" start="2018-09-03" duration="0" complete="0" expand="true"/>
+            <task id="359" name="Release" color="#ff0000" meeting="true" start="2019-01-01" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
